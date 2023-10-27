@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- css -->
+	<link rel="stylesheet" href="./css/style.css">
+	<script src="./js/index.js"></script>
+	<title>MIDTERM PROJECT</title>
+</head>
+<body">
+	<div class="content">
+		<h1 style="font-family: verdana;">Transfer</h1>
+		<h1>$<span id="sure_amount"></span>?</h1>
+		<h style="font-family: verdana;">From 1234567890123456</h1>
+		<h1 style="font-family: verdana;">To 1234567887654321</h1>
+
+		<button class="button_question_yes" onclick="enterTransfer(urlParams.get('amount'))">Yes</button>
+		<button class="button_question_no" onclick="window.location='./transfer.html'">No</button>
+	</div>
+
+	<script>
+		var urlParams = new URLSearchParams(window.location.search);
+		document.getElementById("sure_amount").innerHTML = urlParams.get('amount');
+	</script>
+</body>
+</html>

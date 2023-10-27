@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- css -->
+	<link rel="stylesheet" href="./css/style.css">
+	<script src="./js/index.js"></script>
+	<title>MIDTERM PROJECT</title>
+</head>
+<body>
+	<!-- floting left and right -->
+	<div class="float_right">
+		<h1 style="font-family: verdana;">From</h1>
+		<select class="account" id="t_from">
+			<option value="" selected>Choose an Account</option>
+			<option value="1234567890123456">1234567890123456</option>
+		</select>
+	</div>
+
+	<div class="float_left">
+		<h1 style="font-family: verdana;">To</h1>
+		<select class="account" id="t_to">
+			<option value="" selected>Choose an Account</option>
+			<option value="1234567887654321">1234567887654321</option>
+		</select>
+	</div>
+
+	<div class="content">
+		<p style="font-family: verdana;">Enter the amount to transfer</p>
+		<input type="text" class="pin" name="pin" id="account_number" placeholder="$0000.00" disabled>
+
+		<div>
+			<input type="text" id="count_pin" hidden value="4"></input>
+			<button class="button_acc_number" onclick="add(1)">1</button>
+			<button class="button_acc_number" onclick="add(2)">2</button>
+			<button class="button_acc_number" onclick="add(3)">3</button><br>
+			<button class="button_acc_number" onclick="add(4)">4</button>
+			<button class="button_acc_number" onclick="add(5)">5</button>
+			<button class="button_acc_number" onclick="add(6)">6</button><br>
+			<button class="button_acc_number" onclick="add(7)">7</button>
+			<button class="button_acc_number" onclick="add(8)">8</button>
+			<button class="button_acc_number" onclick="add(9)">9</button><br>
+			<button class="button_acc_number" onclick="add(0)">0</button>
+			<button class="button_acc_number" onclick="add('.')">.</button>
+			<button class="button_acc_number" onclick="del()">Del</button><br>
+			<button class="button_acc_number_width" onclick="preTransfer()">Enter</button><br>
+			<button class="button_return" onclick="window.location='./account.html'">Back</button>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/style.css">
+	<script src="./js/index.js"></script>
+	<title>MIDTERM PROJECT</title>
+</head>
+<body onload="clearData()">
+	<div class="content">
+		<h1 style="font-family: verdana;">SUKKU ATM</h1>
+		<p style="font-family: verdana;">Enter your 16 digit account number or insert your card below:</p>
+		<input type="password" class="acc_number" name="account_number" id="account_number" placeholder="Enter Account Number" disabled>
+
+		<!-- create 3 * 4 button -->
+		<div>
+			<button class="button_acc_number" onclick="add(1)">1</button>
+			<button class="button_acc_number" onclick="add(2)">2</button>
+			<button class="button_acc_number" onclick="add(3)">3</button><br>
+			<button class="button_acc_number" onclick="add(4)">4</button>
+			<button class="button_acc_number" onclick="add(5)">5</button>
+			<button class="button_acc_number" onclick="add(6)">6</button><br>
+			<button class="button_acc_number" onclick="add(7)">7</button>
+			<button class="button_acc_number" onclick="add(8)">8</button>
+			<button class="button_acc_number" onclick="add(9)">9</button><br>
+			<button class="button_acc_number" onclick="enter()">Enter</button>
+			<button class="button_acc_number" onclick="add(0)">0</button>
+			<button class="button_acc_number" onclick="del()">Del</button>
+		</div>
+	</div>
+</body>
+</html>

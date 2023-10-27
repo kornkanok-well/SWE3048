@@ -1,0 +1,288 @@
+.content {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.acc_number{
+	padding: 10px 10px 10px 10px;
+	width: 300px;
+	border-radius: 15px;
+	border: 1px solid black;
+}
+
+.pin{
+	padding: 10px 10px 10px 10px;
+	width: 150px;
+	border-radius: 15px;
+	border: 1px solid black;
+}
+
+.button_acc_number_width{
+	border: 1px solid black;
+	border-radius: 5px;
+	color: black;
+	width: 197px;
+	height: 55px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 2px;
+	margin-right: 2px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.button_return{
+	float: right;
+	border: 1px solid #ef8e39;
+	border-radius: 5px;
+	background-color: #ef8e39;
+	color: rgb(255, 255, 255);
+	width: 140px;
+	height: 55px;
+	margin-top: 10px;
+	margin-right: 150px;
+}
+
+.button_acc_number_with{
+	border: 1px solid black;
+	border-radius: 5px;
+	color: white;
+	background-color: #2c3e50;
+	width: 80px;
+	height: 55px;
+	margin-top: 10px;
+	margin-left: 2px;
+	margin-right: 2px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.button_acc_number_with:hover{
+	background-color: #d3d3d3;
+	color: black;
+}
+
+.button_acc_number_with:active{
+	background-color: white;
+	color: black;
+}
+
+.button_enter_with{
+	padding: 15px 20px 15px 20px;
+	margin-left: 60px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: #58dec3;
+	color: white;
+}
+
+.button_acc_number{
+	border: 1px solid black;
+	border-radius: 5px;
+	color: black;
+	/* padding: 15px 24px; */
+	width: 60px;
+	height: 55px;
+	margin-top: 10px;
+	margin-left: 2px;
+	margin-right: 2px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.button_acc_number:hover{
+	background-color: #d2d2d2;
+	color: rgb(0, 0, 0);
+}
+
+.button_acc_number:active{
+	background-color: #696969;
+	color: rgb(255, 255, 255);
+}
+
+.button_info{
+	border: 1px solid #000000;
+	border-radius: 5px;
+	color: black;
+	/* padding: 15px 24px; */
+	width: 300px;
+	height: 45px;
+	margin-top: 10px;
+}
+
+.button_info:hover{
+	background-color: #d2d2d2;
+	color: rgb(0, 0, 0);
+}
+
+.button_info:active{
+	background-color: #696969;
+	color: rgb(255, 255, 255);
+}
+
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+.nope tr:nth-child(even) {
+	background-color: white;
+}
+
+.nope th, td{
+	text-align: center;
+}
+
+.nope{
+	border: 0px solid black;
+}
+
+.button_question_yes{
+	border: 0px solid #000000;
+	border-radius: 5px;
+	color: white;
+	background-color: green;
+	width: 100px;
+	height: 45px;
+	margin-top: 10px;
+	margin-left: 2px;
+	margin-right: 2px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.button_question_yes:hover{
+	background-color: #37c52a;
+	color: white;
+}
+
+.button_question_yes:active{
+	background-color: #12430d;
+	color: white;
+}
+
+.button_question_no{
+	border: 0px solid #000000;
+	border-radius: 5px;
+	color: white;
+	background-color: #ef8e39;
+	width: 100px;
+	height: 45px;
+	margin-top: 10px;
+	margin-left: 2px;
+	margin-right: 2px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.button_question_no:hover{
+	background-color: #ffb056;
+	color: white;
+}
+
+.button_question_no:active{
+	background-color: #cb7123;
+	color: white;
+}
+
+.button_ok{
+	border: 0px solid #000000;
+	border-radius: 5px;
+	color: white;
+	background-color: #130e61;
+	width: 300px;
+	height: 50px;
+	margin-top: 10px;
+	margin-left: 2px;
+	margin-right: 2px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.button_ok:hover{
+	background-color: #183f99;
+	color: white;
+}
+
+.button_ok:active{
+	background-color: #130e61;
+	color: white;
+}
+
+.button_main{
+	border: 0px solid #000000;
+	border-radius: 5px;
+	color: white;
+	background-color: #2d2e46;
+	min-width: 150px;
+	height: 45px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.button_main_return{
+	border: 0px solid #000000;
+	border-radius: 5px;
+	color: white;
+	background-color: #ef8e39;
+	width: 150px;
+	height: 45px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.butt_img{
+	width: 85px;
+	height: 85px;
+}
+
+.float_right{
+	padding-right: 50px;
+	float: right;
+	text-align: center;
+}
+
+.float_left{
+	padding-left: 50px;
+	float: left;
+	text-align: center;
+}
+
+.account{
+	padding: 10px 10px 10px 10px;
+	width: 200px;
+	border-radius: 5px;
+	border: 1px solid black;
+	color: white;
+	background-color: #2c3e50;
+}
