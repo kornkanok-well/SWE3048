@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width", initial-scale="1.0">
+  <title>EMI TICKET Homepage</title>
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- ICON -->
+  <script src="https://kit.fontawesome.com/fac67a9cd1.js" crossorigin="anonymous"></script>
+
+  <!-- Swipe CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/swiper@11.0.5/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Swipe JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11.0.5/swiper-bundle.min.js"></script>
+
+</head>
+<body>
+
+<!-- Nav Bar -->
+<div class="hero">
+<div class="frame"></div>
+        <nav>
+        <img src="./assets/logo.png" class="logo">
+        <ul>
+            <li><a href="#">Category</a></li>
+            <li><a href="#" onclick="window.location='./register.html'">Sign in</a></li>
+            <li><a href="#">Sign up</a></li>    
+        </ul>
+
+        <img src="./assets/user.png" class="user-pic" onclick="toggleMenu()">
+
+        <div class="sub-menu-wrap" id="subMenu">
+          <div class="sub-menu">
+            <div class="user-info">
+              <img src="./assets/user.png">
+              <h3>Benedict Cumberbatch</h3>
+            </div>
+            <hr>
+
+            <a href="#" class="sub-menu-link">
+              <img src="./assets/account.png">
+              <p>View your profile</p>
+            </a>
+
+            <a href="#" class="sub-menu-link">
+              <img src="./assets/edit.png">
+              <p>Edit profile</p>
+            </a>
+
+            <a href="#" class="sub-menu-link">
+              <img src="./assets/ticket.png">
+              <p>My Ticket</p>
+            </a>
+
+            <a href="#" class="sub-menu-link">
+              <img src="./assets/logout.png">
+              <p>Sign out</p>
+            </a>
+
+          </div>
+        </div>
+        </nav>
+<!-- End Nav Bar -->
+
+<!-- Silder Card -->
+
+<div class="slide-container">
+  <div class="card-wrapper swiper-wrapper">
+
+    <div class="card swiper-slide">
+      <div class="image-box">
+        <img src="assets/show_coldplay.jpg">
+      </div>
+    </div>
+
+    <div class="card swiper-slide">
+      <div class="image-box">
+        <img src="assets/show_edsheeran.jpg">
+      </div>
+
+    </div>
+    <div class="card swiper-slide">
+      <div class="image-box">
+        <img src="assets/show_ericnam.png">
+      </div>
+    
+    </div>
+    <div class="card swiper-slide">
+      <div class="image-box">
+        <img src="assets/show_ive.jpg" alt="">
+      </div>
+
+    </div>
+    <div class="card swiper-slide">
+      <div class="image-box">
+        <img src="assets/show_matilda.png" alt="">
+      </div>
+    </div>
+
+    <div class="card swiper-slide">
+      <div class="image-box">
+        <img src="assets/sport_hiluxrevo.png" alt="">
+      </div>
+    </div>
+
+    <div class="card swiper-slide">
+      <div class="image-box">
+        <img src="assets/sport_onefightnight.png" alt="">
+      </div>
+    </div>
+
+    <div class="card swiper-slide">
+      <div class="image-box">
+        <img src="assets/sport_onelumpinee.png" alt="">
+      </div>
+    </div>
+
+    <div class="card swiper-slide">
+      <div class="image-box">
+        <img src="assets/sport_seasonticket.png" alt="">
+      </div>
+    </div>
+
+    <div class="card swiper-slide">
+      <div class="image-box">
+        <img src="assets/sport_worldcup.jpg" alt="">
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="swiper-button-next swiper-navBtn"></div>
+<div class="swiper-button-prev swiper-navBtn"></div>
+<div class="swiper-pagination"></div>
+
+<script src="index.js"></script>
+
+<!-- END SLIDE CARD -->
+
+<script>
+  let subMenu = document.getElementById("subMenu");
+
+  function toggleMenu(){
+    subMenu.classList.toggle("open-menu");
+  }
+
+</script>
+</body>
+</html>
